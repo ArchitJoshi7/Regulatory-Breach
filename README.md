@@ -18,14 +18,6 @@ pandas, matplotlib
 
 Gmail SMTP for alerting (1 email per batch, not per row)
 
-📂 Folder Structure
-
-├── 01_data_preprocessing.ipynb       # Load and encode synthetic data
-├── 02_model_training.ipynb           # Train and evaluate ML model
-├── 03_batch_inference_and_alerting.ipynb # Run batch predictions & email breach alerts
-├── regulatory_breach_alert_dataset.csv    # Synthetic 10K+ record dataset
-├── X_train.csv / y_train.csv / etc   # Intermediate datasets
-├── trained_model.pkl                 # Saved ML model
 
 🧪 How It Works
 
@@ -43,7 +35,7 @@ Batch Inference Notebook scans new data and sends a single HTML email with all p
 
 Clone this repo:
 
-git clone https://github.com/<your-username>/azure-breach-alert.git
+git clone https://github.com/<your-username>/Regulatory-Breach.git
 
 Upload files to https://ml.azure.com in your free workspace
 
